@@ -1,6 +1,6 @@
 const express = require('express');
 const logger = require('./logger').logger;
-const checkStatusRouter = require('./routes/checkStatusRouter');
+const basicUtilityRouter = require('./routes/basicUtilityRouter');
 
 const app = express();
 
@@ -12,7 +12,7 @@ const logConnectionToServer = (req, res, next) =>
 }
 
 app.use('/', logConnectionToServer);
-app.use('/checkStatus', checkStatusRouter);
+app.use('/', basicUtilityRouter);
 
 app.listen(80, () => 
 {
