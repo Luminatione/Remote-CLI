@@ -5,8 +5,7 @@ const basicUtilityRouter = require('./routes/basicUtilityRouter');
 const app = express();
 
 
-const logConnectionToServer = (req, res, next) =>
-{
+const logConnectionToServer = (req, res, next) => {
     logger.info(`Connection. Method: ${req.method}, url: ${req.url}`);
     next();
 }
@@ -14,7 +13,6 @@ const logConnectionToServer = (req, res, next) =>
 app.use('/', logConnectionToServer);
 app.use('/', basicUtilityRouter);
 
-app.listen(80, () => 
-{
-    console.log("Listeing on 80");
+app.listen(80, () => {
+    logger.info('Srver started, listening on 80');
 });

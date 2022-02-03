@@ -5,3 +5,9 @@
 {"level":"info","message":"Connection. Method: GET, url: /checkStatus"}
 {"level":"info","message":"Connection. Method: GET, url: /checkStatus"}
 {"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey","timestamp":"2022-02-03T14:59:27.051Z"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Srver starteed, listening on 80"}
