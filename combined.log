@@ -11,3 +11,4 @@
 {"level":"info","message":"Connection. Method: GET, url: /getKey"}
 {"level":"info","message":"Connection. Method: GET, url: /getKey"}
 {"level":"info","message":"Srver starteed, listening on 80"}
+{"level":"info","message":"Srver started, listening on 80"}
