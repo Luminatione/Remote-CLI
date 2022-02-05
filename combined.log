@@ -137,3 +137,6 @@
 {"level":"info","message":"Srver started, listening on 80"}
 {"level":"info","message":"Connection. Method: POST, url: /createSession"}
 {"level":"info","message":"Srver started, listening on 80"}
+{"level":"info","message":"Srver started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Srver started, listening on 80"}

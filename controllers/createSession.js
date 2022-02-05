@@ -2,7 +2,6 @@ const {v4: uuid} = require('uuid');
 const hash = require('sha1');
 const insertIntoDb = require('../Utility/db/remoteCLIDbWrapper').inserIntoDb;
 
-const logger = require('../logger').logger; 
 const ctx = require('../env');
 
 

@@ -15,5 +15,5 @@ app.use('/', logConnectionToServer);
 app.use('/', basicUtilityRouter);
 
 app.listen(80, () => {
-    logger.info('Srver started, listening on 80');
+    logger.info('Server started, listening on 80');
 });
