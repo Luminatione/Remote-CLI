@@ -11,7 +11,6 @@ const getKey = async (req, res) => {
         if(keyType !== 'in' && keyType !== 'out'){
             throw 'invalid key type';
         }
-        console.log(`${keyType}Keys`, {key: hash(key)})
         await insertIntoDb(`${keyType}keys`, {key: hash(key)});
         res.status(200).json({success: true, key: key});
     }

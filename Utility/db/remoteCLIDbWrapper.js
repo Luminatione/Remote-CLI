@@ -17,7 +17,6 @@ client.connect((err, db) =>
 
 const insert = async (collectionName, obj) => {
 
-    console.log(collectionName, obj);
     try {
         const collection = connection.db(ctx.dbName).collection(collectionName);
         return await collection.insertOne(obj);
