@@ -191,3 +191,32 @@
 {"level":"info","message":"Connection. Method: GET, url: /getKey"}
 {"level":"error","message":"invalid key type"}
 {"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"warn","message":"attempt to create session without valid key"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"warn","message":"attempt to take action without valid key on /"}
+{"level":"warn","message":"attempt to take action without valid key on /"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"warn","message":"attempt to take action without valid key on /"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"warn","message":"attempt to take action without valid key on /"}

@@ -1,6 +1,7 @@
 const express = require('express');
 const logger = require('./logger').logger;
 const basicUtilityRouter = require('./routes/basicUtilityRouter');
+const keyValidator = require('./validateKey');
 
 const app = express();
 
@@ -11,6 +12,7 @@ const logConnectionToServer = (req, res, next) => {
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
+app.use('/createSession', keyValidator.validateInKey);
 app.use('/', logConnectionToServer);
 app.use('/', basicUtilityRouter);
 

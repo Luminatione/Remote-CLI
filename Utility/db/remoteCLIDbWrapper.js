@@ -31,7 +31,7 @@ const insert = async (collectionName, obj) => {
 const find = async (collectionName, obj) => {
     try {
         const collection = connection.db(ctx.dbName).collection(collectionName);
-        return await collection.find(obj);
+        return await collection.findOne(obj);
     }
     catch(err) {
         logger.error(err);
