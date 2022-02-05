@@ -17,6 +17,7 @@ client.connect((err, db) =>
 
 const insert = async (collectionName, obj) => {
 
+    console.log(collectionName, obj);
     try {
         const collection = connection.db(ctx.dbName).collection(collectionName);
         return await collection.insertOne(obj);
@@ -28,4 +29,16 @@ const insert = async (collectionName, obj) => {
     
 };
 
+const find = async (collectionName, obj) => {
+    try {
+        const collection = connection.db(ctx.dbName).collection(collectionName);
+        return await collection.find(obj);
+    }
+    catch(err) {
+        logger.error(err);
+        throw err;
+    }
+};
+
 module.exports.inserIntoDb = insert;
+module.exports.findInDb = find;
