@@ -247,3 +247,12 @@
 {"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
 {"level":"warn","message":"attempt to access no existing session on /addCommand"}
 {"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"error","message":"Invalid key type"}
+{"level":"info","message":"Server started, listening on 80"}

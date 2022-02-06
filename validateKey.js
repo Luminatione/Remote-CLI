@@ -2,6 +2,7 @@ const hash = require('sha1');
 
 const findInDb = require('./utility/db/remoteCLIDbWrapper').findInDb;
 const logger = require('./logger').logger;
+const ctx = require('./env');
 
 const validateKey = async (req, res, next, keyType, key) => {
     try {
@@ -20,12 +21,12 @@ const validateKey = async (req, res, next, keyType, key) => {
 
 const validateInKey = async (req, res, next) => {
     const {inKey} = req.body;
-    validateKey(req, res, next, 'inkeys', inKey);
+    validateKey(req, res, next, ctx.dbInKeysCollectionName, inKey);
 };
 
 const validateOutKey = (req, res, next) => {
     const {outKey} = req.body;
-    validateKey(req, res, next, 'outkeys', outKey);
+    validateKey(req, res, next, ctx.dbOutKeysCollectionName, outKey);
 }
 
 module.exports.validateInKey = validateInKey;

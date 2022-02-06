@@ -39,5 +39,5 @@ const find = async (collectionName, obj) => {
     }
 };
 
-module.exports.inserIntoDb = insert;
+module.exports.insertIntoDb = insert;
 module.exports.findInDb = find;

@@ -1,5 +1,5 @@
 const logger = require('../logger').logger;
-const insertIntoDb = require('../utility/db/remoteCLIDbWrapper').inserIntoDb;
+const insertIntoDb = require('../utility/db/remoteCLIDbWrapper').insertIntoDb;
 
 const hash = require('sha1');
 
