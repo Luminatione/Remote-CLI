@@ -220,3 +220,30 @@
 {"level":"warn","message":"attempt to take action without valid key on /"}
 {"level":"info","message":"Server started, listening on 80"}
 {"level":"warn","message":"attempt to take action without valid key on /"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"warn","message":"attempt to take action without valid key on /"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"warn","message":"attempt to take action without valid key on /"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /commands/addCommand"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
+{"level":"error"}
+{"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
+{"level":"error"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
+{"level":"warn","message":"attempt to take action without valid key on /addCommand"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
+{"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
+{"level":"warn","message":"attempt to access no existing session on /addCommand"}
+{"level":"info","message":"Connection. Method: POST, url: /commands/addCommand"}
