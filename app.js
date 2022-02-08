@@ -18,7 +18,6 @@ app.use('/createSession', keyValidator.validateInKey);
 app.use('/', logConnectionToServer);
 app.use('/', basicUtilityRouter);
 app.use('/commands', sessionValidator.validateSession);
-app.use('/commands', keyValidator.validateOutKey);
 app.use('/commands', commandsRouter);
 
 app.listen(80, () => {

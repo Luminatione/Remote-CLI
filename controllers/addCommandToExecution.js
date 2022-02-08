@@ -18,7 +18,7 @@ const processExiprationDate = (date) => {
 const addCommand = async (req, res) => {
     try
     {
-        const {outKey, command, expirationDate, sessionId} = req.body;
+        let {outKey, command, expirationDate, sessionId} = req.body;
         expirationDate = processExiprationDate(expirationDate);
         await insertIntoDb(hash(sessionId), {outKey: hash(outKey), command: command, expirationDate: expirationDate});
         res.status(200).json({success: true});
