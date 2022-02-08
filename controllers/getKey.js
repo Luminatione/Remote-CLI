@@ -26,7 +26,7 @@ const getKey = async (req, res) => {
         res.status(200).json({success: true, key: key});
     }
     catch(err) {
-        logger.error(err);
+        logger.error(err.stack);
         res.status(400).json({success: false});
     }
 };

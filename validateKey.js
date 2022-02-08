@@ -14,7 +14,7 @@ const validateKey = async (req, res, next, keyType, key) => {
         throw 'attempt to take action without valid key'
     }
     catch(err) {
-        logger.warn(`${err} on ${req.url}`);
+        logger.warn(err.stack);
         res.status(400).json({success: false});
     }
 };

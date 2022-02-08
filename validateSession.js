@@ -15,7 +15,7 @@ const validateSession = async (req, res, next) => {
         throw 'attempt to access no existing session'
     }
     catch(err) {
-        logger.warn(`${err} on ${req.url}`);
+        logger.warn(err.stack);
         res.status(400).json({success: false});
     }
 

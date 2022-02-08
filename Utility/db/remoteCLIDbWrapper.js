@@ -22,7 +22,7 @@ const insert = async (collectionName, obj) => {
         return await collection.insertOne(obj);
     }
     catch(err) {
-        logger.error(err);
+        logger.error(err.stack);
         throw err;
     }
     
@@ -34,7 +34,7 @@ const find = async (collectionName, obj) => {
         return await collection.findOne(obj);
     }
     catch(err) {
-        logger.error(err);
+        logger.error(err.stack);
         throw err;
     }
 };

@@ -25,7 +25,7 @@ const addCommand = async (req, res) => {
     }
     catch (err)
     {
-        logger.error(err);
+        logger.error(err.stack);
         res.status(400).json({success: false});
     }
 };
