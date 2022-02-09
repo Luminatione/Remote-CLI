@@ -38,6 +38,17 @@ const find = async (collectionName, obj) => {
         throw err;
     }
 };
+const findAll = async (collectionName, obj) => {
+    try {
+        const collection = connection.db(ctx.dbName).collection(collectionName);
+        return await collection.find(obj).toArray();
+    }
+    catch(err) {
+        logger.error(err.stack);
+        throw err;
+    }
+};
 
 module.exports.insertIntoDb = insert;
 module.exports.findInDb = find;
+module.exports.findAll = findAll;
