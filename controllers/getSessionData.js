@@ -48,4 +48,17 @@ const getSessionData = async (req, res) => {
         res.status(400).json({success: false});
     }
 }
-module.exports = getSessionData;
+const getSessionInfo = async (req, res) => {
+    const {sessionId} = req.body;
+    try{
+        const response = await findAll(hash(sessionId), {});
+        const commandsAmount = response.filter(item => item.command).length;
+        const resultsAmount = response.filter(item => item.result).length;
+        res.status(200).json({length: response.length, commandsAmount: commandsAmount, resultsAmount: resultsAmount});
+    }
+    catch (err) {
+        logger.error(err.stack);
+        res.status(400).json({success: false});
+    }
+}
+module.exports = {getSessionData, getSessionInfo};

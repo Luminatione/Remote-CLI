@@ -7,7 +7,7 @@ const addCommandExecutionResult = async (req, res) => {
     try
     {
         const {inKey, result, sessionId} = req.body;
-        await insertIntoDb(hash(sessionId), {inKey: hash(inKey), result: result});
+        await insertIntoDb(hash(sessionId), {inKey: hash(inKey), result: result, date: new Date()});
         res.status(200).json({success: true});
     }
     catch (err)
