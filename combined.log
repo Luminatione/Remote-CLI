@@ -387,3 +387,49 @@
 {"level":"info","message":"Server started, listening on 80"}
 {"level":"info","message":"Server started, listening on 80"}
 {"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /commands/getSessionInfo"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getKey"}
+{"level":"info","message":"Connection. Method: GET, url: /online"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /online"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /online"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"error","message":"MongoInvalidArgumentError: Update document requires atomic operators\n    at new UpdateOneOperation (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\operations\\update.js:67:19)\n    at Collection.updateOne (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\collection.js:168:90)\n    at Object.update (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\utility\\db\\remoteCLIDbWrapper.js:64:33)\n    at registerTargetAsOnline (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\availabilityMonitor.js:23:25)\n    at imOnline (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\availabilityMonitor.js:33:15)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:281:22"}
+{"level":"error","message":"MongoInvalidArgumentError: Update document requires atomic operators\n    at new UpdateOneOperation (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\operations\\update.js:67:19)\n    at Collection.updateOne (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\collection.js:168:90)\n    at Object.update (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\utility\\db\\remoteCLIDbWrapper.js:64:33)\n    at registerTargetAsOnline (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\availabilityMonitor.js:23:25)\n    at imOnline (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\availabilityMonitor.js:33:15)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:281:22"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"error","message":"MongoInvalidArgumentError: Update document requires atomic operators\n    at new UpdateManyOperation (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\operations\\update.js:97:19)\n    at Collection.updateMany (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\collection.js:178:90)\n    at Collection.update (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\collection.js:460:21)\n    at Object.update (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\utility\\db\\remoteCLIDbWrapper.js:64:33)\n    at registerTargetAsOnline (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\availabilityMonitor.js:23:25)\n    at imOnline (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\availabilityMonitor.js:33:15)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"error","message":"MongoInvalidArgumentError: Update document requires atomic operators\n    at new UpdateManyOperation (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\operations\\update.js:97:19)\n    at Collection.updateMany (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\collection.js:178:90)\n    at Collection.update (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\mongodb\\lib\\collection.js:460:21)\n    at Object.update (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\utility\\db\\remoteCLIDbWrapper.js:64:33)\n    at registerTargetAsOnline (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\availabilityMonitor.js:23:25)\n    at imOnline (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\availabilityMonitor.js:33:15)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"info","message":"Connection. Method: GET, url: /online"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"info","message":"Connection. Method: DELETE, url: /online"}
+{"level":"info","message":"Connection. Method: DELETE, url: /online"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"info","message":"Connection. Method: GET, url: /online"}
+{"level":"info","message":"Connection. Method: GET, url: /online"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /online"}
+{"level":"info","message":"Connection. Method: GET, url: /online"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"info","message":"Connection. Method: DELETE, url: /online"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /online"}
+{"level":"info","message":"Server started, listening on 80"}
