@@ -438,3 +438,63 @@
 {"level":"info","message":"Connection. Method: GET, url: /getSessions"}
 {"level":"info","message":"Connection. Method: POST, url: /createSession"}
 {"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"error","message":"TypeError: Cannot read property 'db' of undefined\n    at insert (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\Utility\\db\\remoteCLIDbWrapper.js:21:39)\n    at createSession (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\createSession.js:19:15)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:341:12)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:174:3)"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"error","message":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined\n    at Function.from (buffer.js:330:9)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:14:104\n    at Array.map (<anonymous>)\n    at getSessions (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:12:29)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"error","message":"TypeError: crypto.createDecipheriv(...).update(...).final is not a function\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:14:170\n    at Array.map (<anonymous>)\n    at getSessions (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:12:29)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"error","message":"TypeError: Assignment to constant variable.\n    at getSessions (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:12:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"error","message":"Error: Invalid IV length\n    at Decipheriv.createCipherBase (internal/crypto/cipher.js:103:19)\n    at Decipheriv.createCipherWithIV (internal/crypto/cipher.js:121:20)\n    at new Decipheriv (internal/crypto/cipher.js:264:22)\n    at Object.createDecipheriv (crypto.js:132:10)\n    at decryptSessionId (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:9:29)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:18:44\n    at Array.map (<anonymous>)\n    at getSessions (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:18:29)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"error","message":"Error: Invalid IV length\n    at Decipheriv.createCipherBase (internal/crypto/cipher.js:103:19)\n    at Decipheriv.createCipherWithIV (internal/crypto/cipher.js:121:20)\n    at new Decipheriv (internal/crypto/cipher.js:264:22)\n    at Object.createDecipheriv (crypto.js:132:10)\n    at decryptSessionId (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:9:29)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:18:44\n    at Array.map (<anonymous>)\n    at getSessions (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\getSessions.js:18:29)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"error","message":"TypeError: encryptSessionId is not a function or its return value is not iterable\n    at createSession (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\createSession.js:26:75)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:341:12)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:47:12)"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"error","message":"TypeError: Cannot read property 'db' of undefined\n    at insert (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\Utility\\db\\remoteCLIDbWrapper.js:21:39)\n    at createSession (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\createSession.js:26:15)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:341:12)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:174:3)"}
+{"level":"error","message":"TypeError: Cannot read property 'db' of undefined\n    at insert (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\Utility\\db\\remoteCLIDbWrapper.js:21:39)\n    at createSession (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\controllers\\createSession.js:26:15)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:341:12)\n    at next (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\patryk\\Desktop\\Projects\\RemoteCLI\\node_modules\\express\\lib\\router\\index.js:174:3)"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
