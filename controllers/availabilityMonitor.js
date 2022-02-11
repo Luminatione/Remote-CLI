@@ -49,7 +49,7 @@ const imOffline = async (req, res) => {
         res.status(400).json({success: false});
     }
 }
-//remove targets older than 10 minutes from online targets collection
+
 const removeOldTargets = async () => {
     const date = new Date();
     date.setMinutes(date.getMinutes() - 10);

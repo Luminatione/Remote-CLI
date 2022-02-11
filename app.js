@@ -17,6 +17,7 @@ app.use(express.json());
 app.use('/', logConnectionToServer);
 app.use('/', basicUtilityRouter);
 app.use('/createSession', keyValidator.validateInKey);
+app.use('/getSessions', keyValidator.validateInKey);
 app.use('/online', keyValidator.validateInKey);
 app.use('/commands', sessionValidator.validateSession);
 app.use('/commands', commandsRouter);

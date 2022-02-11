@@ -433,3 +433,8 @@
 {"level":"info","message":"Server started, listening on 80"}
 {"level":"info","message":"Connection. Method: POST, url: /online"}
 {"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Server started, listening on 80"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
+{"level":"info","message":"Connection. Method: POST, url: /createSession"}
+{"level":"info","message":"Connection. Method: GET, url: /getSessions"}
